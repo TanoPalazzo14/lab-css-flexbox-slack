@@ -49,7 +49,7 @@ footer links grey: #454245
     .sign-up{
         display: flex;
         flex-direction: column;
-
+        align-items: center;
     }
 
     .sign-up button {
@@ -58,6 +58,7 @@ footer links grey: #454245
         background-color: white;
         border: none;
         margin: 6px 0px;
+
     }
 
     #signUpBlue{
@@ -70,7 +71,7 @@ footer links grey: #454245
     .sign-up button img{
         height: 30px;
         position: relative;
-        right: 232px;
+        right: 30%;
         top:1px;
         background-color: white;
     }
@@ -183,7 +184,42 @@ footer links grey: #454245
         color: #540B51;
     }
 
+    footer ul li {
+        list-style:none;
+    }
 
+    hr {
+        margin-top: 50px;
+    }
+    .links {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 20px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
 
+    .links li{
+        font-weight: 800;
+    }
 
+    .links li:nth-last-child(1){
+        color:#2E71A6
+    }
+
+    .media {
+        margin: 0px;
+        padding: 0px 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer div {
+        margin-top: 20px;
+        text-align: center;
+        font-size: small;
+    }
 }
