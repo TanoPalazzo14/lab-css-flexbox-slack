@@ -31,6 +31,15 @@ footer links grey: #454245
         right: 50px;
         display: flex;
         align-items: center;
+       
+    }
+    .top-buttons button{
+        border: none;
+        background-color: #540B51;
+    }
+    .top-buttons button img{
+        height: 20px;
+        width: auto;
     }
 
     header {
@@ -44,6 +53,9 @@ footer links grey: #454245
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    header div p span{ 
+        color:#ECB12F;
     }
 
     .sign-up{
